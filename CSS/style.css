@@ -19,6 +19,36 @@ dd {
   margin: 0;
 }
 
+.heading{
+    text-align: left;
+    font-size: 8vw;
+    padding-left: 4%;
+    color: whitesmoke;
+}
+.title{
+    text-align: center;
+    color: gold;
+    font-size: 8vw;
+    font-weight: 600;
+    padding: 4%;
+    
+}
+.author{
+    text-align: right;
+    font-style: italic;
+    font-size: 4vw;
+    padding-right: 4%;
+    color: whitesmoke;
+}
+.poem{
+    text-align: center;
+    font-size: 7vw;
+    color: whitesmoke;
+}
+.balls{
+    padding: 4%;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
 ol[role='list'] {
@@ -35,6 +65,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: rgb(27, 27, 51);
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
