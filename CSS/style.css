@@ -21,7 +21,7 @@ dd {
 
 .heading{
     text-align: left;
-    font-size: 8vw;
+    font-size: 6vw;
     padding-left: 4%;
     color: whitesmoke;
 }
@@ -103,4 +103,32 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+@media screen and (min-width:600px){
+    .heading{
+        font-size: 6vw;
+    }
+    .title{
+        font-size: 6vw;
+    }
+    .author{
+        font-size: 3vw;
+    }
+    .poem{
+        font-size: 5vw;
+    }
+}
+@media screen and (min-width:960px){
+    .heading{
+        font-size: 3vw;
+    }
+    .title{
+        font-size: 4vw;
+    }
+    .author{
+        font-size: 2vw;
+    }
+    .poem{
+        font-size: 4vw;
+    }
 }
