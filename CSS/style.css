@@ -19,38 +19,37 @@ dd {
   margin: 0;
 }
 
-.heading{
-    text-align: left;
-    font-size: 6vw;
-    padding-left: 4%;
-    color: whitesmoke;
+.heading {
+  text-align: left;
+  font-size: 6vw;
+  padding-left: 4%;
+  color: whitesmoke;
 }
-.title{
-    text-align: center;
-    color: gold;
-    font-size: 8vw;
-    font-weight: 600;
-    
+.title {
+  text-align: center;
+  color: gold;
+  font-size: 8vw;
+  font-weight: 600;
 }
-.author{
-    text-align: right;
-    font-style: italic;
-    font-size: 4vw;
-    padding-right: 4%;
-    color: whitesmoke;
+.author {
+  text-align: right;
+  font-style: italic;
+  font-size: 4vw;
+  padding-right: 4%;
+  color: whitesmoke;
 }
-.poem{
-    text-align: center;
-    font-size: 7vw;
-    color: whitesmoke;
+.poem {
+  text-align: center;
+  font-size: 7vw;
+  color: whitesmoke;
 }
-.balls{
-    padding: 4%;
+.balls {
+  padding: 4%;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -65,7 +64,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: rgb(27, 27, 51);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -91,9 +90,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -103,40 +102,42 @@ select {
     scroll-behavior: auto !important;
   }
 }
-@media screen and (min-width:600px){
-    .heading{
-        font-size: 6vw;
-    }
-    .title{
-        font-size: 6vw;
-    }
-    .author{
-        font-size: 3vw;
-    }
-    .poem{
-        font-size: 5vw;
-    }
+@media screen and (min-width: 600px) {
+  .heading {
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .author {
+    font-size: 3vw;
+  }
+  .poem {
+    font-size: 5vw;
+  }
 }
-@media screen and (min-width:960px){
-    .balls{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    .heading{
-        font-size: 32px;
-        padding-left: 10%;
-        padding-top: 3%;
-    }
-    .title{
-        font-size: 46px;
-    }
-    .author{
-        font-size: 24px;
-        padding-top: 3%;
-    }
-    .poem{
-        font-size: 38px
-    }
+@media screen and (min-width: 960px) {
+  .balls {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .heading {
+    font-size: 32px;
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+  .title {
+    font-size: 46px;
+  }
+  .author {
+    font-size: 24px;
+    padding-top: 3%;
+  }
+  .poem {
+    font-size: 38px;
+  }
 }
+
+/* Need separation between reset and new code */
