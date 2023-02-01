@@ -127,3 +127,25 @@ body {
 .poem {
   margin-inline: auto;
 }
+
+.footer {
+  text-align: center;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+}
+
+.footer a,
+.footer a:visited,
+.footer a:active,
+.footer a:hover {
+  color: gold;
+  display: inline-block;
+  padding: 0rem 0.5rem;
+}
+
+.footer a:hover {
+  background-color: whitesmoke;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  color: rgb(27, 27, 51);
+}
